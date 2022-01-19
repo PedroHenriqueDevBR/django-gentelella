@@ -81,6 +81,17 @@ html, body {
     align-items: center;
 }
 
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 .logo-error-page {
     margin-bottom: 25px;
 }
@@ -4161,7 +4172,8 @@ a.hiddenanchor {
 .login_form {
     position: absolute;
     top: 0px;
-    width: 100%
+    width: 100%;
+    padding: 8px 16px;
 }
 
 .registration_form {
