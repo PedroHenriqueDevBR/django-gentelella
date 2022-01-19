@@ -28,8 +28,28 @@ html, body {
     height: 100%;
 }
 
+.full-height-vh {
+    height: 100vh;
+}
+
 .daterangepicker .ranges li {
     color: #263238
+}
+
+.primary-color {
+    background-color: var(--primary);
+}
+
+.primary-color-text {
+    color: var(--primary);
+}
+
+.secondary-color {
+    background-color: var(--secondary);
+}
+
+.secondary-color-text {
+    color: var(--secondary);
 }
 
 .button-color {
@@ -53,6 +73,19 @@ html, body {
     background-color: var(--button-danger-hover);
     color: #fff;
 }
+
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-error-page {
+    margin-bottom: 25px;
+}
+
+/* ================================================= */
 
 .daterangepicker .ranges li.active,
 .daterangepicker .ranges li:hover {
